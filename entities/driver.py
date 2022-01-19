@@ -40,20 +40,4 @@ class Driver:
 
     
 
-    def update(self,name):
-        print(f"Menu ->{self.dict_of_rests[name][0]} has processing capacity of {self.dict_of_rests[name][1]}")
-        choice = input("Update menu(M) or processing capacity(P)?(M/P)")
-        if choice=="M":
-            print(self.dict_of_rests[name][0])
-            choice2 = input("Want to delete an item?(Y/N)")
-            if choice2=="Y":
-                item = input("Enter the item")
-                self.dict_of_rests[name][0].pop(item)
-            elif choice2=="N":
-                item = input("Enter the item")
-                price = input("Enter the price")
-                self.dict_of_rests[name][0][item] = price
-        elif choice=="P":
-            pass
-        else:
-            print("enter correct choice")
+    
