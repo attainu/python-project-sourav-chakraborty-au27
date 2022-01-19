@@ -26,9 +26,4 @@ class Rider:
 
 
 
-    def order(self):
-        self.show_restaurant()
-        dish = input("Enter the dish required")
-        print(dish)
-        #dish search in menu of each restaurant
-        #if dish is there show it, otherwise ask again for the dish
+    
