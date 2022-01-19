@@ -18,7 +18,7 @@ class Rider:
                 cost = math.sqrt((drvr.dict_of_drivers[i]["location"][0]-location[0])**2+(drvr.dict_of_drivers[i]["destination"][0]-destination[0])**2)
                 print(i,drvr.dict_of_drivers[i]["model"],"is at",cost,"meters")
         
-        print(cost, "is your cost")
+        
         
         
             
